@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ui/styles.css">
+    <title>Event Management</title>
+</head>
+<body>
+    <label for="sessionIdInput">Session ID:</label>
+    <input type="text" id="sessionIdInput" required>
+
+    <label for="flowSelection">Select Flow:</label>
+    <select id="flowSelection">
+        <option value="happyFlow">Happy Flow</option>
+        <option value="questionnaireErrorPages">Questionnaire Error Pages</option>
+        <option value="questionnaireInfoPopups">Questionnaire Info Pop-ups</option>
+        <option value="permissionsErrorPages">Permissions Error Pages</option>
+    </select>
+
+    <button id="getEventsButton" disabled>Get Events</button>
+
+    <script src="script.js"></script>
+    <div id="responseContainer">
+        <pre id="responseMessage"></pre>
+    </div>
+</body>
+</html>

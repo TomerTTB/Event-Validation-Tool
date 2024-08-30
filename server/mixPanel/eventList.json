@@ -1,0 +1,850 @@
+[
+    {
+        "event": "pv mobile sent to back",
+        "properties": {
+            "time": 1723393203.2,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "Extra event 1",
+        "properties": {
+            "time": 1723393203.2,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile sent to back",
+        "properties": {
+            "time": 1723391882.046,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "act mobile goeyes wait for ecp continue",
+        "properties": {
+            "time": 1723391881.937,
+            "$os": "iOS",
+            "event": "act"
+        }
+    },
+    {
+        "event": "pv mobile goeyes Wait for ECP",
+        "properties": {
+            "time": 1723391869.718,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "act mobile goeyes personal details",
+        "properties": {
+            "time": 1723391865.17,
+            "$os": "iOS",
+            "event": "act"
+        }
+    },
+    {
+        "event": "Extra event 2",
+        "properties": {
+            "time": 1723393203.2,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile goeyes personal details",
+        "properties": {
+            "time": 1723391842.456,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "Received refraction test results",
+        "properties": {
+            "time": 1723391840.514,
+            "$os": "iOS",
+            "event": "system"
+        }
+    },
+    {
+        "event": "pv mobile goeyes loader view",
+        "properties": {
+            "time": 1723391831.797,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "Extra event 2",
+        "properties": {
+            "time": 1723393203.2,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station weak va 025 le",
+        "properties": {
+            "time": 1723391829.861,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover right eye",
+        "properties": {
+            "time": 1723391822.578,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station weak va 035 le",
+        "properties": {
+            "time": 1723391819.311,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "Extra event 3",
+        "properties": {
+            "time": 1723393203.2,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile goeyes loader view",
+        "properties": {
+            "time": 1723391817.646,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono weak confirmed le",
+        "properties": {
+            "time": 1723391815.697,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "Extra event 3",
+        "properties": {
+            "time": 1723393203.2,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono weak confirmed le",
+        "properties": {
+            "time": 1723391813.78,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono weak relaxed 2 le",
+        "properties": {
+            "time": 1723391811.438,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "Extra event 3",
+        "properties": {
+            "time": 1723393203.2,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover right eye",
+        "properties": {
+            "time": 1723391806.275,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover right eye",
+        "properties": {
+            "time": 1723391796.849,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono weak relaxed 1 le",
+        "properties": {
+            "time": 1723391796.759,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station bino weak relaxed le",
+        "properties": {
+            "time": 1723391787.407,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile weak eye relaxed",
+        "properties": {
+            "time": 1723391785.349,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono strong check re",
+        "properties": {
+            "time": 1723391775.184,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile sph flow cover your eye tutorial",
+        "properties": {
+            "time": 1723391772.127,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono weak check le",
+        "properties": {
+            "time": 1723391769.845,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile sph flow cover your eye tutorial",
+        "properties": {
+            "time": 1723391767.796,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono strong check re",
+        "properties": {
+            "time": 1723391764.707,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile sph flow cover your eye tutorial",
+        "properties": {
+            "time": 1723391761.648,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station bino va 1 025 re",
+        "properties": {
+            "time": 1723391759.888,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station bino va 0 020 re",
+        "properties": {
+            "time": 1723391757.471,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station bino strong sphere re",
+        "properties": {
+            "time": 1723391748.37,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station bino weak sphere le",
+        "properties": {
+            "time": 1723391746.748,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station bino strong sphere re",
+        "properties": {
+            "time": 1723391740.05,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station bino blur back weak le",
+        "properties": {
+            "time": 1723391738.215,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station bino blur back strong re",
+        "properties": {
+            "time": 1723391715.806,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile bino back uncover eyes",
+        "properties": {
+            "time": 1723391711.405,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station removeglasses le",
+        "properties": {
+            "time": 1723391705.722,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile goeyes loader view",
+        "properties": {
+            "time": 1723391637.502,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover right eye",
+        "properties": {
+            "time": 1723391631.767,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile goeyes distance lost 1 audio",
+        "properties": {
+            "time": 1723391614.89,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl mdba 055 le",
+        "properties": {
+            "time": 1723391605.059,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile goeyes loader view",
+        "properties": {
+            "time": 1723391603.678,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier cyl up le",
+        "properties": {
+            "time": 1723391602.11,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier cyl up le",
+        "properties": {
+            "time": 1723391600.569,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier cyl up le",
+        "properties": {
+            "time": 1723391599.035,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier sph up le",
+        "properties": {
+            "time": 1723391597.12,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier sph up le",
+        "properties": {
+            "time": 1723391595.034,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier cyl down le",
+        "properties": {
+            "time": 1723391593.508,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier cyl down le",
+        "properties": {
+            "time": 1723391591.975,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier cyl down le",
+        "properties": {
+            "time": 1723391590.628,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier cyl down le",
+        "properties": {
+            "time": 1723391589.092,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier sph 04 down le",
+        "properties": {
+            "time": 1723391587.539,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover right eye",
+        "properties": {
+            "time": 1723391575.966,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station low cyl verifier sph 03 down le",
+        "properties": {
+            "time": 1723391572.16,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover right eye",
+        "properties": {
+            "time": 1723391557.8,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station va at sphere le",
+        "properties": {
+            "time": 1723391556.16,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 025 sph second le",
+        "properties": {
+            "time": 1723391554.618,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 035 sph second le",
+        "properties": {
+            "time": 1723391554.614,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 055 cyl le",
+        "properties": {
+            "time": 1723391553.032,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 075 cyl le",
+        "properties": {
+            "time": 1723391551.484,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover right eye",
+        "properties": {
+            "time": 1723391544.229,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 025 sph first le",
+        "properties": {
+            "time": 1723391540.5,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 035 sph first le",
+        "properties": {
+            "time": 1723391540.497,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station rough va 03 a le",
+        "properties": {
+            "time": 1723391538.938,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station rough va 04 le",
+        "properties": {
+            "time": 1723391531.988,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile j flow cover your eye tutorial",
+        "properties": {
+            "time": 1723391529.477,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station removeglasses le",
+        "properties": {
+            "time": 1723391523.888,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile rest your eyes",
+        "properties": {
+            "time": 1723391485.005,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover left eye",
+        "properties": {
+            "time": 1723391463.146,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station va at sphere re",
+        "properties": {
+            "time": 1723391459.197,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 035 cyl second re",
+        "properties": {
+            "time": 1723391457.053,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 035 cyl second re",
+        "properties": {
+            "time": 1723391451.341,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 025 sph third re",
+        "properties": {
+            "time": 1723391449.806,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 035 sph third re",
+        "properties": {
+            "time": 1723391449.805,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 025 sph second re",
+        "properties": {
+            "time": 1723391448.272,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 035 sph second re",
+        "properties": {
+            "time": 1723391448.271,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 035 cyl first re",
+        "properties": {
+            "time": 1723391446.691,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 055 cyl re",
+        "properties": {
+            "time": 1723391445.082,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 075 cyl re",
+        "properties": {
+            "time": 1723391443.478,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 025 sph first re",
+        "properties": {
+            "time": 1723391425.937,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station mono blur back 035 sph first re",
+        "properties": {
+            "time": 1723391425.934,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station rough va 03 a re",
+        "properties": {
+            "time": 1723391424.373,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station rough va 04 re",
+        "properties": {
+            "time": 1723391417.428,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile j flow cover your eye tutorial",
+        "properties": {
+            "time": 1723391415.195,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station removeglasses re",
+        "properties": {
+            "time": 1723391409.771,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station 5 training 1 line b re",
+        "properties": {
+            "time": 1723391384.32,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station 4 training 1 line a re",
+        "properties": {
+            "time": 1723391372.267,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station 3 training slightly defocused line re",
+        "properties": {
+            "time": 1723391362.433,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station 2 training 0 line re",
+        "properties": {
+            "time": 1723391347.947,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station 1 training 2 line re",
+        "properties": {
+            "time": 1723391328.024,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile j training uncover eyes",
+        "properties": {
+            "time": 1723391312.11,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station snr approximate sph le",
+        "properties": {
+            "time": 1723391296.772,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station snr approximate sph le",
+        "properties": {
+            "time": 1723391291.97,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station snr approximate sph le",
+        "properties": {
+            "time": 1723391283.262,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover right eye",
+        "properties": {
+            "time": 1723391272.444,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station snr approximate sph le",
+        "properties": {
+            "time": 1723391271.717,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile goeyes setup perfect light",
+        "properties": {
+            "time": 1723391267.411,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station check light le",
+        "properties": {
+            "time": 1723391266.878,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station play you can sit le",
+        "properties": {
+            "time": 1723391263.299,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station shapes small le",
+        "properties": {
+            "time": 1723391252.938,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile cover right eye",
+        "properties": {
+            "time": 1723391243.74,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    },
+    {
+        "event": "pv mobile station ducks big le",
+        "properties": {
+            "time": 1723391230.312,
+            "$os": "iOS",
+            "event": "pv"
+        }
+    }
+]
