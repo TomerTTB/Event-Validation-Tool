@@ -37,7 +37,7 @@ app.post('/submit-data', async (req, res) => {
     //console.log(comparisonResults);
 
         // Send a response back to the client
-        res.json({ message: 'Data received successfully', comparisonResults});
+        res.json({ message: 'Data received successfully', comparisonResults, mockData});
     } catch (err) {
         console.log(err);
         res.status(500).json({ message: err.message });

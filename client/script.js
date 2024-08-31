@@ -23,7 +23,7 @@ function handleButtonClick() {
         console.log('Success:', result);
         // Handle the server response here (e.g., display a success message)
         //document.getElementById('responseMessage').textContent = JSON.stringify(result, null, 2);
-        displayResponseInTable(result.comparisonResults);
+        displayResponseInTable(result.comparisonResults, result.mockData);
     })
     .catch(error => {
         console.error('Error:', error);

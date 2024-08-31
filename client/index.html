@@ -8,30 +8,37 @@
 </head>
 
 <body>
-    <div class="input-group">
-        <div class="input-container">
+  <table id="inputTable">
+    <tr>
+        <td>
             <label for="sessionIdInput">Session ID:</label>
-            <input type="text" id="sessionIdInput" required placeholder="Enter Session ID">
-        </div>
-        <div class="input-container">
-        <label for="flowSelection">Select Flow:</label>
-        <select id="flowSelection">
-            <option value="happyFlow">Happy Flow</option>
-            <option value="questionnaireErrorPages">Questionnaire Error Pages</option>
-            <option value="questionnaireInfoPopups">Questionnaire Info Pop-ups</option>
-            <option value="permissionsErrorPages">Permissions Error Pages</option>
-        </select>
-        </div>
-    </div>
-
-    <button id="getEventsButton" disabled>Get Events</button>
-
+            <input type="text" id="sessionIdInput" placeholder="Enter Session ID">
+        </td>
+        <td>
+            <label for="flowSelection">Select Flow:</label>
+            <select id="flowSelection">
+              <option value="happyFlow">Happy Flow</option>
+              <option value="questionnaireErrorPages">Questionnaire Error Pages</option>
+              <option value="questionnaireInfoPopups">Questionnaire Info Pop-ups</option>
+              <option value="permissionsErrorPages">Permissions Error Pages</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button id="getEventsButton" disabled>Get Events</button>
+        </td>
+        <td id="responseCell">
+          <!-- This cell will be populated after the response is received -->
+        </td>
+    </tr>
+</table>
 
     <table id="responseTable">
         <thead>
           <tr>
             <th>Event Name</th>
-            <th>Status</th>
+            <th>Satus</th>
             <th>Count</th>
             <!-- <th>Warning</th> -->
           </tr>
