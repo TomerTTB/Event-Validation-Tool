@@ -22,8 +22,8 @@ function handleButtonClick() {
     .then(result => {
         console.log('Success:', result);
         // Handle the server response here (e.g., display a success message)
-        document.getElementById('responseMessage').textContent = JSON.stringify(result, null, 2);
-        //displayResponseInTable(JSON.stringify(result, null, 2));
+        //document.getElementById('responseMessage').textContent = JSON.stringify(result, null, 2);
+        displayResponseInTable(result.comparisonResults);
     })
     .catch(error => {
         console.error('Error:', error);

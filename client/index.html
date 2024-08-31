@@ -3,26 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ui/styles.css">
     <title>Event Management</title>
+    <link rel="stylesheet" href="ui/styles.css">
 </head>
-<body>
-    <label for="sessionIdInput">Session ID:</label>
-    <input type="text" id="sessionIdInput" required>
 
-    <label for="flowSelection">Select Flow:</label>
-    <select id="flowSelection">
-        <option value="happyFlow">Happy Flow</option>
-        <option value="questionnaireErrorPages">Questionnaire Error Pages</option>
-        <option value="questionnaireInfoPopups">Questionnaire Info Pop-ups</option>
-        <option value="permissionsErrorPages">Permissions Error Pages</option>
-    </select>
+<body>
+    <div class="input-group">
+        <div class="input-container">
+            <label for="sessionIdInput">Session ID:</label>
+            <input type="text" id="sessionIdInput" required placeholder="Enter Session ID">
+        </div>
+        <div class="input-container">
+        <label for="flowSelection">Select Flow:</label>
+        <select id="flowSelection">
+            <option value="happyFlow">Happy Flow</option>
+            <option value="questionnaireErrorPages">Questionnaire Error Pages</option>
+            <option value="questionnaireInfoPopups">Questionnaire Info Pop-ups</option>
+            <option value="permissionsErrorPages">Permissions Error Pages</option>
+        </select>
+        </div>
+    </div>
 
     <button id="getEventsButton" disabled>Get Events</button>
 
+
+    <table id="responseTable">
+        <thead>
+          <tr>
+            <th>Event Name</th>
+            <th>Status</th>
+            <th>Count</th>
+            <!-- <th>Warning</th> -->
+          </tr>
+        </thead>
+        <tbody id="responseBody">
+        </tbody>
+      </table>
+
     <script src="script.js"></script>
-    <div id="responseContainer">
-        <pre id="responseMessage"></pre>
-    </div>
+    <script src="ui/uiTable.js"></script>
 </body>
 </html>

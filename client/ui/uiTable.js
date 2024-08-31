@@ -1,30 +1,27 @@
-// Assuming this function is called when you receive the response from the server
-function displayResponseInTable(responseData) {
-    const tableBody = document.getElementById('eventsTableBody');
-    tableBody.innerHTML = ''; // Clear existing table rows
+// Function to display response in a table
+function displayResponseInTable(comparisonResults) {
+    const tableBody = document.getElementById('responseBody');
+    tableBody.innerHTML = ''; // Clear existing table content
 
-    responseData.forEach(event => {
+    comparisonResults.forEach(result => {
         const row = tableBody.insertRow();
-        
-        const cellEventName = row.insertCell(0);
-        const cellAssertion = row.insertCell(1);
-        const cellCount = row.insertCell(2);
-        const cellWarning = row.insertCell(3);
+             if (result.status === 'Pass') {
+                row.classList.add('pass'); 
+            }   else if (result.status === 'Fail') {
+                row.classList.add('fail'); 
+            }   
+            
+            if (result.status === 'Pass' && result.count > 1) {
+                row.classList.add('multiple');
+            }
 
-        cellEventName.textContent = event.eventName;
-        cellAssertion.textContent = event.assertion;
-        cellCount.textContent = event.count;
-        cellWarning.textContent = event.warning;
-
-        // Optional: Add classes based on assertion or warning for styling
-        if (event.assertion === 'Pass') {
-            cellAssertion.classList.add('pass');
-        } else {
-            cellAssertion.classList.add('fail');
-        }
-
-        if (event.warning === 'Yes') {
-            cellWarning.classList.add('warning');
-        }
+            if (result.status === 'Extra') {
+                row.classList.add('extra'); 
+            }
+            
+        row.insertCell(0).textContent = result.eventName;
+        row.insertCell(1).textContent = result.status;
+        row.insertCell(2).textContent = result.count;
+        // row.insertCell(3).textContent = result.warning;
     });
 }

@@ -1,6 +1,5 @@
 /* styles.css */
 
-/* General styles for body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -9,43 +8,41 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: flex-start;
+    min-height: 100vh;
 }
 
-/* Style the labels */
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 660px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    width: 48%; /* Adjust as needed */
+}
+
 label {
-    margin-top: 10px;
-    margin-bottom: 5px;
     display: block;
+    margin-bottom: 5px;
     font-weight: bold;
     color: #333;
 }
 
-/* Style the input box */
-input[type="text"] {
-    width: 300px;
+input[type="text"], select {
+    width: 100%;
     padding: 8px;
-    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
-/* Style the dropdown menu */
-select {
-    width: 320px;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: #fff;
-}
-
-/* Style the button */
 button {
-    width: 320px;
+    width: 50%;
+    max-width: 330px;
     padding: 10px;
     border: none;
     border-radius: 4px;
@@ -55,7 +52,61 @@ button {
     cursor: pointer;
 }
 
-/* Button hover effect */
 button:hover {
     background-color: #0056b3;
+}
+
+#responseTable {
+    width: 50%;
+    max-width: 660px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+#responseTable th, #responseTable td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+#responseTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+#responseTable td {
+    text-align: center;
+}
+
+#responseTable th:first-child,
+#responseTable td:first-child {
+    text-align: left;
+}
+
+#responseTable tr:hover {
+    background-color: #f5f5f5;
+}
+
+#responseTable tr.pass {
+    background-color: #d4edda;  /* Light green */
+}
+
+#responseTable tr.fail {
+    background-color: #c87077;  /* Light red */
+}
+
+#responseTable tr.multiple {
+    background-color: #fff3cd;  /* Light yellow */
+}
+
+#responseTable tr.extra {
+    background-color: #e6d8f0;  /* Light purple */
+}
+
+/* Adjust hover effect to work with new background colors */
+#responseTable tr:hover {
+    filter: brightness(95%);
 }
