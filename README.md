@@ -1,4 +1,4 @@
-# EventComparisonTool - README
+# Event Validation Tool - README
 
 ## Overview
 
