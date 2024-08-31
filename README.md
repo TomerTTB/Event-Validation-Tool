@@ -119,4 +119,4 @@ Each predefined list is stored as a document in the MongoDB collection. The form
 
 ## Summary
 
-The **EventComparisonTool** is a comprehensive solution for comparing event data, providing clear feedback through a visual interface. By integrating with MongoDB, Docker, and a MockServer, the application is both flexible and robust, making it an essential tool for validating event tracking in any project. The application also allows for easy customization and expansion by adding new predefined lists of events into MongoDB.
+The **EventComparisonTool** is a comprehensive solution for comparing event data, providing clear feedback through a visual interface. By integrating with MongoDB, Docker, and a MockServer, the application is flexible, making it an essential tool for validating event tracking in any project. The application also allows for easy customization and expansion by adding new predefined lists of events into MongoDB.
