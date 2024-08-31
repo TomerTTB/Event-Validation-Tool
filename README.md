@@ -5,7 +5,7 @@
 **EventComparisonTool** is a web application designed to compare events between a predefined list and those retrieved from MixPanel. The tool helps ensure that the events match, flagging discrepancies for review. The application provides detailed feedback based on the comparison, displaying results in a user-friendly table with color-coded rows for quick analysis.
 
 ### Key Features:
-- **Comparison of Events:** The tool compares predefined events with those retrieved from MixPanel and categorizes them into Pass, Pass with Warning, Fail, and Extra.
+- **Comparison of Events:** The tool compares predefined events with those retrieved from MixPanel and categorizes them into Pass, Pass with Count > 1, Fail, and Extra.
 - **User Interface:** The comparison results are displayed in a table, with color-coded rows indicating the status of each event.
 - **Mock Server Integration:** The application can simulate server responses using a MockServer running on Postman.
 - **Response Visualization:** After the comparison, the user can click a button to view the original mock server response in a new tab.
@@ -69,18 +69,14 @@ The following dependencies are required for the application:
    docker run --name mongodb -d -p 27017:27017 mongo:latest
    ```
 
-4. **Set Up MockServer:**
-   - Import the Postman collection for the mock server.
-   - Start the MockServer in Postman.
-
-5. **Start the Back-End Server:**
+4. **Start the Back-End Server:**
    ```bash
-   npm start
+   node server
    ```
 
-6. **Run the Front-End Server:**
+5. **Run the Front-End Server:**
    ```bash
-   live-server
+   live-server.js
    ```
 
 ### Using the Application
@@ -120,37 +116,6 @@ Each predefined list is stored as a document in the MongoDB collection. The form
   ]
 }
 ```
-
-#### Steps to Add a New Predefined List:
-
-1. **Access MongoDB:**
-   - Use a MongoDB client like `mongo` shell or a GUI tool like MongoDB Compass.
-
-2. **Navigate to the Correct Database:**
-   - Ensure you are working within the database that holds your predefined lists.
-
-3. **Insert the Document:**
-   - Use the following command to insert a new predefined list:
-   
-   ```javascript
-   db.predefinedLists.insertOne({
-     "flowName": "New Flow Name",
-     "events": [
-       "event1",
-       "event2",
-       "event3"
-     ]
-   });
-   ```
-   - Replace `"New Flow Name"` with the name of your new flow.
-   - Replace `"event1"`, `"event2"`, `"event3"` with the actual event names.
-
-4. **Verify the Insertion:**
-   - Confirm that the document has been added successfully by running:
-   
-   ```javascript
-   db.predefinedLists.find({ "flowName": "New Flow Name" });
-   ```
 
 ## Summary
 
