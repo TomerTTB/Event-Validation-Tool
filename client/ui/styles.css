@@ -71,10 +71,16 @@ button:disabled {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-#responseTable th, #responseTable td {
+#responseTable th:first-child,
+#responseTable td:first-child {
+    text-align: left;
+}
+
+#responseTable th,
+#responseTable td {
     padding: 12px;
     border-bottom: 1px solid #ddd;
-    text-align: left;
+    text-align: center;
 }
 
 #responseTable th {
